@@ -7,29 +7,36 @@
     }
     header{
         position: relative;
-        padding: 0;
+        padding: 1rem 0;
+    }
+    header h1{
+        padding-left: .7rem;
     }
     .hero_text h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .bun{
         display: inline;
+        padding-right: .7rem;
     }
     #menu{
-        background-color: red;
         cursor: pointer;
         padding: .4rem;
     }
     #cross{
+        cursor: pointer;
         display: none;
+        padding: .4rem;
     }
 
-
+    #navbar{
+        display: none;
+    }
     .nav_links_container{
         flex-direction: column;
         position: absolute;
         top: 80px;
-        background-color: rgb(177, 88, 88);
+        background-color: rgb(218, 218, 219);
         height: auto;
         padding: 2rem 0;
     }

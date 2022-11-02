@@ -148,7 +148,8 @@ main{
     margin-top: 7rem;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .sponsor_images div img{
-    width: 80px;
+    width: 60px;
 }
