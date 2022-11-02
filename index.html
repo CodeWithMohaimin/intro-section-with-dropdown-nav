@@ -2,38 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
+  <header>
+    <nav class="nav_links_container">
+      <h1>snap</h1>
+      <ul class="main_links">
 
-  Features
-  Company
-  Careers
-  About
+        <li class="root_dropdown">
+          Feature  
+          <img class="arrow_down" src="./images/icon-arrow-down.svg"
+          alt="arrow down icon">
+          <img class="arrow_up" src="./images/icon-arrow-up.svg" alt="icon arrow up">
+          <ul class="dropdown_links">
+            <li><img src="./images/icon-todo.svg" alt="todo icon"> Todo List</li>
+            <li><img src="./images/icon-calendar.svg" alt="todo icon"> Calender</li>
+            <li><img src="./images/icon-reminders.svg" alt="todo icon"> Reminders</li>
+            <li><img src="./images/icon-planning.svg" alt="todo icon"> Planing</li>
+          </ul>
+        </li>
 
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <li class="root_dropdown">Company  
+          <img class="arrow_down" src="./images/icon-arrow-down.svg"
+          alt="arrow down icon">
+          <img class="arrow_up" src="./images/icon-arrow-up.svg" alt="icon arrow up">
+          <ul class="dropdown_links">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </li>
+        <li>Careers</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="login_section">
+      <ul>
+        <li>Login</li>
+        <li>Register</li>
+      </ul>
+    </div>
+  </header>
 </body>
 </html>
