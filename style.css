@@ -10,12 +10,22 @@ header{
     display: flex;
     justify-content: space-between; 
     padding: .9rem 2rem;
-
+    align-items: center;
+}
+.bun{
+    display: none;
+}
+.nav_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav_links_container{
     display: flex;
-    gap: 40px;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 3rem;
 }
 .nav_links_container h1{
     font-size: 2.5rem;
@@ -65,8 +75,80 @@ header{
 .arrow_up{
     display: none;
 }
+.dropdown_links{
+    background-color: #fff;
+}
 .dropdown_links li img{
     padding-right: 10px;
 }
+.login_section ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.login_section ul li{
+    font-size: 1rem;
+    color: hsl(0, 0%, 41%);
+    font-weight: 600;
+    cursor: pointer;
+}
+.login_section ul li:hover{
+    font-size: 1rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 8%);
+}
+#btn{
+    border: 2px solid hsl(0, 0%, 8%);
+    padding: .5rem 1.25rem;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    transition: all .3s ease-in-out;
+    border-radius: .9rem;
+    cursor: pointer;
+}
+#btn:hover{
+    border: 2px solid hsl(0, 0%, 8%);
+    padding: .5rem 1.25rem;
+    color: hsl(0, 0%, 8%);
+    background-color: transparent;
+}
 
-
+/* main section  */
+main{
+    width: 100%;
+    max-width: 1100px;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 1.25rem;
+    
+}
+.hero_text{
+    max-width: 390px;
+}
+.hero_text h1{
+    font-size: 4rem;
+}
+.hero_text p{
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 8%);
+    margin: 3rem 0;
+}
+.hreo_image{
+    max-width: 450px;
+}
+.hreo_image img{
+    width: 100%;
+}
+.sponsor_images{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.sponsor_images div img{
+    width: 80px;
+}

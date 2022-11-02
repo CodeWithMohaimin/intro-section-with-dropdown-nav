@@ -1,0 +1,45 @@
+@media(max-width: 800px ){
+    main{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+        gap: 5rem;
+    }
+    header{
+        position: relative;
+        padding: 0;
+    }
+    .hero_text h1{
+        font-size: 3rem;
+    }
+    .bun{
+        display: inline;
+    }
+    #menu{
+        background-color: red;
+        cursor: pointer;
+        padding: .4rem;
+    }
+    #cross{
+        display: none;
+    }
+
+
+    .nav_links_container{
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        background-color: rgb(177, 88, 88);
+        height: auto;
+        padding: 2rem 0;
+    }
+    .main_links{
+        flex-direction: column;
+    }
+    .login_section ul{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+
+}
