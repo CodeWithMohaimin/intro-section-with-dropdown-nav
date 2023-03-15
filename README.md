@@ -1,10 +1,12 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
+# Live Link [Click Here](https://intro-dropdown-mohaimin.netlify.app/)
+
+# This Project is basically for Frontend Mentor challenge project. Where I create A intro-section-with-dropdown-nav for Frontend Mentor io with Html and CSS. It's Great project for learning CSS Grid and CSS Flex Box and CSS media query.
+
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
