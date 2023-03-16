@@ -1,8 +1,8 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-# Live Link [Click Here](https://intro-dropdown-mohaimin.netlify.app/)
+## Live Link [Click Here](https://intro-dropdown-mohaimin.netlify.app/)
 
-# This Project is basically for Frontend Mentor challenge project. Where I create A intro-section-with-dropdown-nav for Frontend Mentor io with Html and CSS. It's Great project for learning CSS Grid and CSS Flex Box and CSS media query.
+### This Project is basically for Frontend Mentor challenge project. Where I create A intro-section-with-dropdown-nav for Frontend Mentor io with Html and CSS. It's Great project for learning CSS Grid and CSS Flex Box and CSS media query.
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
